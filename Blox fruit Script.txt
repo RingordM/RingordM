@@ -1,0 +1,51 @@
+﻿loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+
+repeat wait() until game:IsLoaded()
+
+_G.Team = "Pirates" -- Choose: "Pirates" or "Marines"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HuyLocDz/Blox-Fruit/main/TinhLinhHub.lua"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Dragon-Hub/main/Script-Execute.lua"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/SunHub", true))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua"))()
+
+getgenv().simple_settings = {
+    ["MASTERY"] = {
+        ["ACTIVE"] = true,
+        ["METHOD"] = "Half" -- Method: "Half"[300] or "Full"[600]
+    },
+    ["OBJECTIVE"] = {
+        ["GODHUMAN"] = true,
+        ["RACE-V3"] = true, -- Race to V3 if possible (Human, Mink, Fishman, Ghoul, Cyborg)
+        ["FRAGMENT"] = 100000,
+        -- Swords
+        ["CANVANDER"] = true,
+        ["BUDDY-SWORD"] = true,
+        ["CURSED-DUAL-KATANA"] = true,
+        ["SHARK-ANCHOR"] = true, -- Soon.
+        -- Guns
+        ["ACIDUM-RIFLE"] = true,
+        ["VENOM-BOW"] = true,
+        ["SOUL-GUITAR"] = true
+    },
+    ["FRUITPURCHASE"] = true,
+    ["PRIORITYFRUIT"] = {
+        [1] = "Dragon-Dragon",
+        [2] = "Flame-Flame",
+        [3] = "Rumble-Rumble",
+        [4] = "Human-Human: Buddha",
+        [5] = "Dark-Dark"
+    },
+    ["FPSCAP"] = 30,
+    ["LOWTEXTURE"] = true
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
+
+_G.Team = "Pirates"
+_G.FixLag = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
